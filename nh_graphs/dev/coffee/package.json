@@ -3,23 +3,29 @@
   "description": "CoffeeScript / JavaScript Graphing Library for Open-eObs using D3.js",
   "author": "Colin Wren <colin@neovahealth.co.uk>",
   "dependencies": {
-  	"gulp": "3.9.0",
-  	"del": "1.1.1",
-    "karma": "0.13.0",
+    "gulp": "4.0.0",
+    "del": "1.2.0",
+    "karma": "6.0.0",
     "gulp-coffeelint": "0.4.0",
-    "gulp-coffee": "2.3.1",
-    "gulp-notify": "2.2.0",
+    "gulp-coffee": "3.0.3",
+    "gulp-notify": "3.0.0",
     "gulp-concat": "2.5.2 ",
-    "jasmine-core":"*",
+    "jasmine-core": "*",
     "karma-jasmine": "0.3.5",
     "karma-junit-reporter": "0.2.2",
-    "karma-phantomjs-launcher": "0.1.4",
-    "phantomjs": "1.9.8",
-    "karma-coverage": "0.2.7",
+    "karma-phantomjs-launcher": "0.2.0",
+    "phantomjs": "1.9.20",
+    "karma-coverage": "2.0.2",
     "karma-nyan-reporter": "0.0.60",
     "karma-html-reporter": "*",
-    "karma-sauce-launcher": "^0.2.14",
+    "karma-sauce-launcher": "^1.2.0",
     "karma-chrome-launcher": "^0.2.2",
-    "sauce-connect-launcher": "^0.14.0"
-  }
+    "sauce-connect-launcher": "^1.0.0",
+    "snyk": "^1.630.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
