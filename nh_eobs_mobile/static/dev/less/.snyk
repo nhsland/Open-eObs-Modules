@@ -1,0 +1,51 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - gulp-kss > gulp-less > less > request > hawk:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > kss > less > request > hawk:
+        patched: '2021-08-03T22:07:46.905Z'
+  'npm:http-signature:20150122':
+    - gulp-kss > gulp-less > less > request > http-signature:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > kss > less > request > http-signature:
+        patched: '2021-08-03T22:07:46.905Z'
+  'npm:mime:20170907':
+    - gulp-kss > gulp-less > less > mime:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > kss > less > mime:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > gulp-less > less > request > form-data > mime:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > kss > less > request > form-data > mime:
+        patched: '2021-08-03T22:07:46.905Z'
+  'npm:minimatch:20160620':
+    - gulp-kss > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > gulp > liftoff > findup-sync > glob > minimatch:
+        patched: '2021-08-03T22:07:46.905Z'
+  'npm:request:20160119':
+    - gulp-kss > gulp-less > less > request:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > kss > less > request:
+        patched: '2021-08-03T22:07:46.905Z'
+  'npm:semver:20150403':
+    - gulp-kss > gulp > semver:
+        patched: '2021-08-03T22:07:46.905Z'
+  'npm:tunnel-agent:20170305':
+    - gulp-kss > gulp-less > less > request > tunnel-agent:
+        patched: '2021-08-03T22:07:46.905Z'
+    - gulp-kss > kss > less > request > tunnel-agent:
+        patched: '2021-08-03T22:07:46.905Z'
+  'npm:uglify-js:20151024':
+    - gulp-kss > handlebars > uglify-js:
+        patched: '2021-08-03T22:07:46.905Z'
