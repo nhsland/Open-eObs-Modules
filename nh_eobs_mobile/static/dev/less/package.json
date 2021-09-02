@@ -9,6 +9,12 @@
     "gulp-kss": "0.0.2",
     "gulp-less": "3.0.5",
     "gulp-util": "3.0.4",
-    "gulp-flatten": "0.2.0"
-  }
+    "gulp-flatten": "0.2.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
