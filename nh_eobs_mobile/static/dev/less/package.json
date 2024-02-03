@@ -8,7 +8,7 @@
     "less": "2.5.1",
     "gulp-kss": "0.0.2",
     "gulp-less": "3.0.5",
-    "gulp-util": "3.0.4",
+    "gulp-util": "3.0.8",
     "gulp-flatten": "0.2.0"
   }
 }
