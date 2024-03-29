@@ -3,7 +3,7 @@
   "description": "CoffeeScript / JavaScript Graphing Library for Open-eObs using D3.js",
   "author": "Colin Wren <colin@neovahealth.co.uk>",
   "dependencies": {
-  	"gulp": "3.9.0",
+  	"gulp": "5.0.0",
   	"del": "1.1.1",
     "karma": "0.13.0",
     "gulp-coffeelint": "0.4.0",
